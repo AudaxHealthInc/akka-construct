@@ -8,4 +8,4 @@ resolvers += Resolver.url(
 
 addSbtPlugin("com.rallyhealth" %% "rally-versioning" % "1.3.0")
 addSbtPlugin("com.rallyhealth" %% "rally-sbt-plugin" % "0.4.0")
-
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.6.1")
