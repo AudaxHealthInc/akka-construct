@@ -6,6 +6,6 @@ resolvers += Resolver.url(
   url("https://artifacts.werally.in/artifactory/ivy-plugins-release")
 )(Resolver.ivyStylePatterns)
 
-addSbtPlugin("com.rallyhealth" %% "rally-versioning" % "latest.release")
+addSbtPlugin("com.rallyhealth" %% "rally-versioning" % "1.10.1")
 addSbtPlugin("com.rallyhealth" %% "rally-sbt-plugin" % "0.4.0")
 
